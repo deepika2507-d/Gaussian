@@ -8,10 +8,27 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. Import Library: Import the NumPy library as np.
-2. Define Matrix: Create a 2D NumPy array a with the given elements.
-3. Compute Eigenvalues and Eigenvectors: Use np.linalg.eig(a) to calculate the eigenvalues and eigenvectors.
-4. .Display Result: Print the eigenvalues and eigenvectors.
+1.Start
+
+2.Read the number of variables n.
+
+3.Input the augmented matrix of size n x (n+1).
+
+4.Forward Elimination:
+
+  Convert the matrix to upper triangular form.
+
+  For each row below the current row:
+
+Eliminate the variable using row operations.
+
+5.Back Substitution:
+
+   Start from the last equation and solve for the variables one by one.
+
+   Display the values of all variables (X0, X1, ..., Xn-1).
+
+6.End
 
 ## Program:
 
